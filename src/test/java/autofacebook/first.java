@@ -40,7 +40,11 @@ public class first {
 		//click submit button
 		driver.findElement(By.xpath("//div[@id='reg_form_box']/div[@class='clearfix']/button")).click();
 		
+		driver.findElement(By.xpath("//*[@id='reg_pages_msg']/a")).click();
+		driver.navigate().back();
 		
+		
+
 		Thread.sleep(3000);
 		driver.quit();
 
