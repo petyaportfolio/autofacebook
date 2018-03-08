@@ -27,7 +27,7 @@ public class first {
 			sel3.selectByIndex(10);;
 	
 	driver.findElement(By.xpath("//*[@id='u_0_15']")).click();
-	driver.getCurrentUrl();
+	driver.quit();
 	}	
 	
 	
